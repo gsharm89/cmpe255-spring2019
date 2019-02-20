@@ -101,5 +101,5 @@ print("{} is even? {}".format(y[39585],sgd_clf.predict([X[39585]])))
 from sklearn.model_selection import cross_val_score
 cross_val_score(sgd_clf, X_train, y_train_even, cv=3, scoring="accuracy")
 
+#to be implemented
 from sklearn.neighbors import KNeighborsClassifier
-knn_clf =
